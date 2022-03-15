@@ -179,31 +179,28 @@ Also, you can check performance indicators such as AUC, pAUC, precision, recall,
 
 `result.csv`
 ```  
-fan						
-section	domain	AUC	pAUC	precision	recall	F1 score
-0	source	0.6738	0.573157895	0.654545455	0.36	0.464516129
-1	source	0.6786	0.505263158	0.625	0.3	0.405405405
-2	source	0.6542	0.532631579	0.685714286	0.24	0.355555556
-0	target	0.6955	0.548421053	0.657142857	0.46	0.541176471
-1	target	0.4953	0.483157895	0.5	0.35	0.411764706
-2	target	0.6441	0.559473684	0.497461929	0.98	0.65993266
-arithmetic mean		0.64025	0.533684211	0.603310754	0.448333333	0.473058488
-harmonic mean		0.631866714	0.531826049	0.592999386	0.367438982	0.453732583
+fan
+section,AUC (source),AUC (target),pAUC,precision (source),precision (target),recall (source),recall (target),F1 score (source),F1 score (target)
+00,0.8488,0.4542,0.6136,0.7741,0.4948,0.48,0.96,0.5925,0.6530
+01,0.7150,0.46,0.5089,0.5609,0.5057,0.46,0.88,0.5054,0.6423
+02,0.8042,0.6477,0.6131,0.7254,0.5937,0.74,0.76,0.7326,0.6666
+arithmetic mean,0.7893,0.5206,0.5785,0.6868,0.5314,0.5599,0.8666,0.6102,0.6540
+harmonic mean,0.7852,0.5068,0.5741,0.6737,0.5279,0.5348,0.8586,0.5963,0.6538
+
   ...
-valve						
-section	domain	AUC	pAUC	precision	recall	F1 score
-0	source	0.5026	0.506842105	0.588235294	0.2	0.298507463
-1	source	0.5404	0.494210526	0.512195122	0.21	0.29787234
-2	source	0.596	0.516315789	0.615384615	0.24	0.345323741
-0	target	0.4716	0.485263158	0.382352941	0.13	0.194029851
-1	target	0.5857	0.548421053	0.519230769	0.81	0.6328125
-2	target	0.5489	0.489473684	0.55	0.22	0.314285714
-arithmetic mean		0.540866667	0.506754386	0.52789979	0.301666667	0.347138602
-harmonic mean		0.537267925	0.505885378	0.515602416	0.218970897	0.307394569
+valve
+section,AUC (source),AUC (target),pAUC,precision (source),precision (target),recall (source),recall (target),F1 score (source),F1 score (target)
+00,0.5432,0.5116,0.5231,0.5217,0.4651,0.48,0.4,0.4999,0.4301
+01,0.489,0.5448,0.4968,0.5384,0.5312,0.42,0.34,0.4719,0.4146
+02,0.5298,0.4432,0.4973,0.5102,0.4561,0.5,0.52,0.5050,0.4859
+arithmetic mean,0.5206,0.4998,0.5057,0.5234,0.4841,0.4666,0.42,0.4923,0.4435
+harmonic mean,0.5196,0.4961,0.5054,0.5232,0.4819,0.4640,0.4073,0.4918,0.4415
+
 						
-		AUC	pAUC	precision	recall	F1 score
-arithmetic mean over all machine types, sections, and domains		0.634334516	0.537946639	0.511821964	0.448497815	0.439585489
-harmonic mean over all machine types, sections, and domains		0.620051253	0.534340265	1.55E-15	1.55E-15	1.55E-15
+,AUC (source),AUC (target),pAUC,precision (source),precision (target),recall (source),recall (target),F1 score (source),F1 score (target)
+"arithmetic mean over all machine types, sections, and domains",0.7193,0.4836,0.5420,0.6265,0.5160,0.6104,0.7809,0.5439,0.6018
+"harmonic mean over all machine types, sections, and domains",0.6862,0.4371,0.5385,0.6007,0.5127,0.3458,0.6692,0.4389,0.5806
+
 ```
 
 ### 8. Run training script for the additional training dataset (after April 1, 2022)
