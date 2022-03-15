@@ -28,7 +28,7 @@ So, please download the datasets in each stage:
 - "Development dataset"
   - Download `dev_data_<machine_type>.zip` from https://zenodo.org/record/4562016.
 - "Additional training dataset", i.e. the evaluation dataset for training
-  - After April. 1, 2022, download additional training dataset.
+  - After April. 15, 2022, download additional training dataset.
 - "Evaluation dataset", i.e. the evaluation dataset for test
   - After June. 1, 2022, download evaluation dataset.
 
@@ -182,7 +182,7 @@ Also, you can check performance indicators such as AUC, pAUC, precision, recall,
 fan
 section AUC (source) AUC (target) pAUC precision (source) precision (target) recall (source) recall (target) F1 score (source) F1 score (target)
 00 0.8488 0.4542 0.6136 0.7741 0.4948 0.48 0.96 0.5925 0.6530
-01 0.7150 0.46 0.5089 0.5609 0.5057 0.46 0.88 0.5054 0.6423
+01 0.7150 0.46   0.5089 0.5609 0.5057 0.46 0.88 0.5054 0.6423
 02 0.8042 0.6477 0.6131 0.7254 0.5937 0.74 0.76 0.7326 0.6666
 arithmetic mean 0.7893 0.5206 0.5785 0.6868 0.5314 0.5599 0.8666 0.6102 0.6540
 harmonic mean 0.7852 0.5068 0.5741 0.6737 0.5279 0.5348 0.8586 0.5963 0.6538
@@ -203,7 +203,7 @@ harmonic mean 0.5196 0.4961 0.5054 0.5232 0.4819 0.4640 0.4073 0.4918 0.4415
 
 ```
 
-### 8. Run training script for the additional training dataset (after April 1, 2022)
+### 8. Run training script for the additional training dataset (after April 15, 2022)
 After the additional training dataset is launched, download and unzip it.
 Move it to `eval_data/<machine_type>/train/`.
 Run the training script `00_train.py` with the option `-e`. 
