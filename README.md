@@ -236,19 +236,19 @@ We develop the source code on Ubuntu 18.04 LTS Windows10.
 - FFmpeg
 
 ### Python packages
-- Keras                         == 2.3.0
+- Keras                         == 2.8.0
 - Keras-Applications            == 1.0.8
-- Keras-Preprocessing           == 1.0.5
-- matplotlib                    == 3.0.3
-- numpy                         == 1.18.1
-- PyYAML                        == 5.1
-- scikit-learn                  == 0.22.2.post1
-- scipy                         == 1.1.0
-- librosa                       == 0.6.0
-- audioread                     == 2.1.5 (more)
-- setuptools                    == 41.0.0
-- tensorflow                    == 1.15.0
-- tqdm                          == 4.43.0
+- Keras-Preprocessing           == 1.1.2
+- matplotlib                    == 3.5.1
+- numpy                         == 1.21.5
+- PyYAML                        == 6.0
+- scikit-learn                  == 1.0.2
+- scipy                         == 1.8.0
+- librosa                       == 0.9.1
+- audioread                     == 2.1.9
+- setuptools                    == 60.9.3
+- tensorflow                    == 2.8.0
+- tqdm                          == 4.63.0
 
 ## Citation
 We will publish papers on the dataset and task description and will announce the citation information for them by the submission deadline, so please make sure to refer to them in your technical report.
