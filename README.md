@@ -28,9 +28,9 @@ So, please download the datasets in each stage:
 - "Development dataset"
   - Download `dev_data_<machine_type>.zip` from https://zenodo.org/record/4562016.
 - "Additional training dataset", i.e. the evaluation dataset for training
-  - After April. 1, 2022, download `eval_data_train_<machine_type>.zip` from https://zenodo.org/record/4660992.
+  - After April. 1, 2022, download additional training dataset.
 - "Evaluation dataset", i.e. the evaluation dataset for test
-  - After June. 1, 2022, download `eval_data_test_<machine_type>.zip` from https://zenodo.org/record/4884786.
+  - After June. 1, 2022, download evaluation dataset.
 
 ### 3. Unzip dataset
 Unzip the downloaded files and make the directory structure as follows:
@@ -206,7 +206,7 @@ arithmetic mean over all machine types, sections, and domains		0.634334516	0.537
 harmonic mean over all machine types, sections, and domains		0.620051253	0.534340265	1.55E-15	1.55E-15	1.55E-15
 ```
 
-### 8. Run training script for the additional training dataset (after April 1, 2021)
+### 8. Run training script for the additional training dataset (after April 1, 2022)
 After the additional training dataset is launched, download and unzip it.
 Move it to `eval_data/<machine_type>/train/`.
 Run the training script `00_train.py` with the option `-e`. 
@@ -215,7 +215,7 @@ $ python 00_train.py -e
 ```
 Models are trained by using the additional training dataset `eval_data/<machine_type>/train/`.
 
-### 9. Run test script for the evaluation dataset (after June 1, 2021)
+### 9. Run test script for the evaluation dataset (after June 1, 2022)
 After the evaluation dataset for test is launched, download and unzip it.
 Move it to `eval_data/<machine_type>/test/`.
 Run the test script `01_test.py` with the option `-e`. 
