@@ -1,5 +1,5 @@
 # dcase2022_task2_baseline_ae
-Autoencoder-based baseline system for [DCASE2022 Challenge Task 2](http://dcase.community/challenge2022/task-unsupervised-detection-of-anomalous-sounds).
+Autoencoder-based baseline system for [DCASE2022 Challenge Task 2](https://dcase.community/challenge2022/task-unsupervised-anomalous-sound-detection-for-machine-condition-monitoring).
 
 ## Description
 This system consists of two main scripts:
