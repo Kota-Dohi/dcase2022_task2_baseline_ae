@@ -232,7 +232,7 @@ We develop the source code on Ubuntu 18.04 LTS Windows10.
 
 ### Software packages
 - p7zip-full
-- Python == 3.6.5
+- Python == 3.8.12
 - FFmpeg
 
 ### Python packages
